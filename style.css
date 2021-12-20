@@ -1,0 +1,16 @@
+.box-login{
+    width: 30%;
+    height: 300px;
+    background-color: grey;
+    margin: 5% auto;
+    padding: 2%;
+    position: absolute;
+}
+
+.box-login form input[type=text] ,
+.box-login form input[type=password] {
+    width: 90%;
+    height: 30px;
+    margin: 1% 0;
+    padding-left: 1%;
+}
