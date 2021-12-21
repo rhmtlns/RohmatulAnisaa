@@ -20,7 +20,7 @@
                     $nama_user = $hasil['nama'];
                     if($count > 0){
                         $_SESSION['nama'] = $nama_user;
-                        header("location:index.php");
+                        header("location:beli.php");
                     }else{
                         echo "Gagal Login";
                     }
